@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio aula 4</title>
+</head>
+<style>
+
+body{
+	margin: 0;
+	background-color: cyan;
+}
+	header, footer{
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #000;
+		background-color: tomato;
+		position: fixed;
+	}
+
+	header{
+		top: 0;
+	}
+
+	footer{
+		border-bottom: 0;
+		height: 60px;
+		border-top: 1px solid #000;
+		bottom: 0;
+
+	}
+
+	main{
+		widht: 100%;
+		height: auto;
+		margin-top: 50px;
+		display: flex;
+	}
+
+	@media screen and (max-width: 700px){
+		main{
+			display: inline;
+			background-color: grey;
+		}
+
+		#quadrado{
+			display: none;
+		}
+	}
+
+	#quadrado{
+		width: 20px;
+		height: 20px;
+		background-color: blue;
+		position: absolute;
+		left: 100px;
+		top: 400px;
+	}
+
+</style>
+<body>
+	<header></header>
+	<main>
+		
+			<div class="filho">
+		
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, illum aliquid ad eos ullam veniam harum cum fugiat nobis quo consectetur repellat pariatur esse earum possimus doloribus cupiditate quam ipsam?</p>
+
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, illum aliquid ad eos ullam veniam harum cum fugiat nobis quo consectetur repellat pariatur esse earum possimus doloribus cupiditate quam ipsam?</p>
+
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, illum aliquid ad eos ullam veniam harum cum fugiat nobis quo consectetur repellat pariatur esse earum possimus doloribus cupiditate quam ipsam?</p>
+
+			</div>
+
+			<div class="filho">	
+
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, illum aliquid ad eos ullam veniam harum cum fugiat nobis quo consectetur repellat pariatur esse earum possimus doloribus cupiditate quam ipsam?</p>
+
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, illum aliquid ad eos ullam veniam harum cum fugiat nobis quo consectetur repellat pariatur esse earum possimus doloribus cupiditate quam ipsam?</p>
+
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, illum aliquid ad eos ullam veniam harum cum fugiat nobis quo consectetur repellat pariatur esse earum possimus doloribus cupiditate quam ipsam?</p>
+			</div>
+
+	<div id=quadrado></div>
+		
+
+		
+	</main>
+	<footer></footer>
+	
+</body>
+</html>

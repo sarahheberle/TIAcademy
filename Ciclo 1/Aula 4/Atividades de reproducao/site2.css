@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #2196f8;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid #fff;
+}
+
+header > h1 {
+   padding: 5px;
+   color: white;
+   text-align: center;
+   font-family: verdana, arial, cursive;
+   margin-top: 40px;
+}
+
+header > h2 {
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-family: verdana, arial, cursive;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    top: 150px;
+    background-color: #2196f8;
+}
+body{
+    background-color: #2196f8;
+}
+
+
+
+#main-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+header {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #2196f8;
+    display: flex;
+    flex-direction: column;
+}
+
+header > h1 {
+   padding: 5px;
+   color: white;
+   text-align: center;
+   font-family: verdana, arial, cursive;
+   margin-top: 40px;
+}
+
+header > h2 {
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-family: verdana, arial, cursive;
+    font-size: 14px;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    top: 230px;
+
+}
+
+#conteudo-geral {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.custom-box {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+form{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.disply-btn{
+    width: 100%;
+    height: auto;
+    padding: 4px;
+
+}
+.btn{
+    padding: 4px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+}
+
+form > label{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: verdana, cursive;
+}
+form > label > input[type=text]{
+    font-size: 14px;
+    padding: 4px;
+    border: none;
+}
+#logo-principal{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #fff;
+    align-items: center;
+
+}
+#logo-principal .logo{
+    font-size: 85px;
+    position: absolute;
+}
+#content-base{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
